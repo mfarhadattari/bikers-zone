@@ -15,12 +15,12 @@
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
-<body class="container-lg">
+<body>
 
     <!-- Header Section -->
     <header>
         <!-- Nav Section -->
-        <section>
+        <section class="container-lg">
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
                     <a class="navbar-brand fw-bold" href="#">Biker Zone</a>
@@ -51,7 +51,7 @@
         </section>
 
         <!-- Banner Section -->
-        <section class="mt-5">
+        <section class="container-lg mt-5">
             <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner bg-danger bg-opacity-10 p-5 my-5">
                     <div class="carousel-item active">
@@ -117,7 +117,7 @@
     <!-- Main Section -->
     <main>
         <!-- Hot bikes Section -->
-        <section class="text-center">
+        <section class="container-lg text-center">
             <div>
                 <h1>Featured Bikes In This Year</h1>
                 <p class="text-danger">Best bike collection</p>
@@ -137,7 +137,7 @@
         </section>
 
         <!-- New Arrival Section  -->
-        <section class="bg-info bg-opacity-50 mt-5 pt-5">
+        <section class="container-lg my-5 py-5">
             <h1 class="text-center mt-5">
                 New Arrival
             </h1>
@@ -203,7 +203,7 @@
         </section>
 
         <!-- Happy Client -->
-        <section class="mt-5 text-center">
+        <section class="container-lg mt-5 text-center">
             <h1 class="">Happy Client</h1>
             <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
                 <div class="col">
@@ -264,7 +264,7 @@
         </section>
 
         <!-- Frequently Asked Questions Section -->
-        <section class="mt-5">
+        <section class="container-lg mt-5">
             <h1 class="text-primary text-center">
                 Frequently Asked
                 <span class="text-warning">Questions</span>
@@ -358,8 +358,35 @@
     </main>
 
     <!-- Footer Section -->
-    <footer>
-
+    <footer class="bz-bg-primary mt-5">
+        <section class="container-lg">
+            <div class="row p-5 justify-content-between">
+                <div class="col-12 col-md-6 flex-column">
+                    <div class="d-flex justify-content-start">
+                        <a class="text-decoration-none text-white me-5" href="">Download Now</a>
+                        <a class="text-decoration-none text-white" href="">License</a>
+                    </div>
+                    <div class="d-flex flex-wrap mt-3">
+                        <a class="text-decoration-none text-white me-4" href="">About</a>
+                        <a class="text-decoration-none text-white me-4" href="">Featured</a>
+                        <a class="text-decoration-none text-white me-4" href="">Pricing</a>
+                        <a class="text-decoration-none text-white me-4" href="">Careers</a>
+                        <a class="text-decoration-none text-white me-4" href="">Help</a>
+                        <a class="text-decoration-none text-white" href="">Privacy Policy</a>
+                    </div>
+                    <p class="mt-5">
+                        © 2020 bike. All rights reserved
+                    </p>
+                </div>
+                <div class="col-12 col-md-4 flex-column">
+                    <h3>Get the app</h3>
+                    <a class="text-decoration-none" href=""><img class="w-50 mt-3" src="./images/android.png"
+                            alt=""></a>
+                    <a class="text-decoration-none" href=""><img class="w-50 mt-3" src="./images/ios.png" alt=""></a>
+                </div>
+                
+            </div>
+        </section>
     </footer>
 
     <!-- Bootstrap JS -->
